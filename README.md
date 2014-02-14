@@ -52,9 +52,9 @@ grunt.initConfig({
 
 #### options.commands
 Type: `Array`
-Default value: `',  '`
+Required
 
-A string value that is used to do something with whatever.
+An array of of commadns
 
 #### options.commands[index].cmd
 Type: `String` (required)
