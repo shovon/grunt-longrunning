@@ -27,8 +27,8 @@ module.exports = function(grunt) {
       var proc;
       function spawnChild() {
         proc = child_process.spawn(
-          command.options.cmd,
-          command.options.args
+          command.cmd,
+          command.args
         );
         proc.stdout.on('data', function (data) {
           process.stdout.write(data.toString('utf8'));
